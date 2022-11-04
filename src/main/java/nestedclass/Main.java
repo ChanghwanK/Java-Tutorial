@@ -5,7 +5,6 @@ import nestedclass.OuterClass.InnerClass;
 
 class OuterClass {
     private String name;
-
      static class InnerClass {
         private int age;
          public String getOuterClassName() {
@@ -17,7 +16,5 @@ class OuterClass {
 public class Main {
     public static void main(String[] args) {
         OuterClass outerClass = new OuterClass();
-        InnerClass innerClass = outerClass.new InnerClass();
-        String name = innerClass.
     }
 }
