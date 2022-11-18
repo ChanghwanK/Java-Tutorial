@@ -1,2 +1,6 @@
-package lambda_ex;public class MyLambdaEx {
+package lambda_ex;
+
+@FunctionalInterface
+public interface MyLambdaEx {
+    void methodA();
 }
