@@ -8,5 +8,4 @@ public class AnimalPrinter <T extends Animal> {
     public void printAnimalName(T animal) {
         System.out.println("Name: " + animal.getName());
     }
-
 }
